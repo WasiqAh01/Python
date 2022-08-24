@@ -1,0 +1,13 @@
+def great(n1,n2,n3):    #here n1=a,n2=b,n3=c
+    if n1>n2:
+        if n1>n3:
+            return n1
+        else:
+            return n3
+    else:
+        return n2
+a=int(input("Enter a Number :- "))  #Input_1 from user as integer
+b=int(input("Enter a Number :- "))  #Input_2 from user as integer
+c=int(input("Enter a Number :- "))   #Input_3 from user as integer
+f=great(a,b,c)    #calling the great function
+print(f"\nGreatest of them is :- {f}")
