@@ -1,0 +1,11 @@
+def great(n1,n2,n3):    #here n1=4,n2=8,n3=1
+    if n1>n2:
+        if n1>n3:
+            return n1
+        else:
+            return n3
+    else:
+        return n2
+
+f=great(4,8,1)    #calling great function
+print(f"\nGreatest of them is :- {f}")
