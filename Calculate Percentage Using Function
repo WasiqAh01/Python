@@ -1,0 +1,20 @@
+def per(marks):
+    return (sum(marks)/400)*100     #Sum is a pre-defined keyword for addition
+
+marks=[45,78,69,78]
+p=per(marks)    #calling the function
+print(f"Percentage is :- {p}",)
+
+      #or
+      
+#Taking Input from User
+
+def per(a,b,c,d):
+    return (a+b+c+d)/400*100
+
+a=int(input("Enter Marks for Subject P :- "))
+b=int(input("Enter Marks for Subject Q :- "))
+c=int(input("Enter Marks for Subject R :- "))
+d=int(input("Enter Marks for Subject S :- "))
+p=per(a,b,c,d)    #calling function
+print(f"Percentage is :- {p}",)
