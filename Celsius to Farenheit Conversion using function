@@ -1,0 +1,6 @@
+def con(c):     #we can say c=a
+    f=(c*9/5)+32
+    return f
+
+a=int(input("Enter Celcius :- "))
+print(f"Tempreature in Farenheit is {con(a)}")
