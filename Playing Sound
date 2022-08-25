@@ -1,0 +1,3 @@
+#Playing Sound
+from playsound import playsound
+playsound("C:\\Users\\Wasu\\Downloads\\01.mp3")
