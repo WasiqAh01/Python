@@ -1,0 +1,4 @@
+#WAP to find avg of 2 no's
+a=int(input("ENTER 1ST NUMBER"))
+b=int(input("ENTER 2ND NUMBER"))
+print("Average is ",(a+b)/2)
