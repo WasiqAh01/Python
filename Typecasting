@@ -1,0 +1,7 @@
+a=30
+print(type(a))
+b=3.45
+print(type(b))
+c="Wasiq"
+print(type(c))
+d="31"
