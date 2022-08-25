@@ -1,0 +1,3 @@
+st="WE  ARE   ONE"
+st=st.replace("   "," ")
+print(st)
