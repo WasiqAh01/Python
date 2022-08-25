@@ -1,0 +1,4 @@
+# String Concatenation with Skipping
+a="Ahmad"
+print(a[1:7:3])     #here 3 represent no. of skips
+print(a[0::3])
