@@ -1,0 +1,4 @@
+# find the double space
+a="This is my    page"
+string=a.find("  ")
+print(string)
