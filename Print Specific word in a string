@@ -1,0 +1,8 @@
+#to print a specific word in a string
+a="Wasiq"
+print(a[0]) 
+print(a[0:4])   #slicing
+print(a[0:-2])  #slicing
+print(a[0:])   #same as print(a[0:5])
+print(a[:5])    #same as print(a[[0:5]])
+#d[3]="F"             we cannot change the string value
