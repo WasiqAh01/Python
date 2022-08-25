@@ -1,0 +1,5 @@
+# String Concentaction
+a="GOOD MORNING"+"\n"
+b="Wasu"
+c=a+b
+print(c)
