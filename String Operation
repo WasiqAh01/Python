@@ -1,0 +1,8 @@
+# String Operations
+a="once upon a time"
+print(len(a))     #Prints the length of a string
+print(a.endswith("me")) #checking if it end with me or not & returns True/False
+print(a.count("o")) #checks the no. of occurence of O in string
+print(a.capitalize()) #Capitlize the 1st Alphabet of a string
+print(a.find("time"))  #finds a particular word in string
+print(a.replace("upon","None"))  #replace a words
